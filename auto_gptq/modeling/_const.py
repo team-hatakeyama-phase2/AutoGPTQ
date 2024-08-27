@@ -46,6 +46,8 @@ if compare_transformers_version("v4.39.0.dev0", op="ge"):
     SUPPORTED_MODELS.append("starcoder2")
 if compare_transformers_version("v4.43.0.dev0", op="ge"):
     SUPPORTED_MODELS.append("gemma2")    
+if compare_transformers_version("v4.44.0", op="ge"):
+    SUPPORTED_MODELS.append("Tanuki")    
 
 EXLLAMA_DEFAULT_MAX_INPUT_LENGTH = 2048
 

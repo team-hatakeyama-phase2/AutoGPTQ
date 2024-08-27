@@ -30,6 +30,7 @@ from .stablelmepoch import StableLMEpochGPTQForCausalLM
 from .starcoder2 import Starcoder2GPTQForCausalLM
 from .xverse import XverseGPTQForCausalLM
 from .yi import YiGPTQForCausalLM
+from .tanuki import TanukiGPTQForCausalLM
 
 
 GPTQ_CAUSAL_LM_MODEL_MAP = {
@@ -62,6 +63,7 @@ GPTQ_CAUSAL_LM_MODEL_MAP = {
     "gemma2": Gemma2GPTQForCausalLM,
     "phi": PhiGPTQForCausalLM,
     "mpt": MPTGPTQForCausalLM,
+    "Tanuki": TanukiGPTQForCausalLM,
 }
 
 
